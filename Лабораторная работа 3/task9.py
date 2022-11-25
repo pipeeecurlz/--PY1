@@ -11,3 +11,4 @@ for m in range(months):
     spend *= 1 + increase
 
 print(round(money_capital))
+
