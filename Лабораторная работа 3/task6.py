@@ -8,10 +8,6 @@ for i, num in enumerate(list_numbers):
         list_max = num
         list_max_index = i
 
-b = list_numbers[-1]
-list_numbers[list_max_index] = b
-list_numbers[-1] = list_max
+list_numbers[list_max_index], list_numbers[-1] = list_numbers[-1], list_numbers[list_max_index]
 
 print(list_numbers)
-
-
