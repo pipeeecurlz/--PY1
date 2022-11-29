@@ -45,3 +45,4 @@ main_str = """
 """
 
 print(get_count_char(main_str))
+
