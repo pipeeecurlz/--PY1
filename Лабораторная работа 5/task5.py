@@ -9,3 +9,4 @@ def get_random_password(lenght=8) -> str:
     return password
 
 print(get_random_password())
+
