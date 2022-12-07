@@ -1,4 +1,5 @@
 from random import sample
+
 def get_unique_list_numbers() -> list[int]:
     nums = [i for i in range(-10, 11)]
     unique_list = sample(nums, 15)
