@@ -9,6 +9,22 @@ class Book:
 
     def __repr__(self):
         return f"{self.__class__.__name__}(name={self._name!r}, author={self._author!r})"
+        
+    @property
+    def name(self):
+        return self.__name
+
+    @name.setter
+    def name(self, name: str):
+        self.__name = name
+
+    @property
+    def author(self):
+        return self.__author
+
+    @author.setter
+    def author(self, author: str):
+        self.__author = author
 
 
 class PaperBook(Book):
