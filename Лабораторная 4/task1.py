@@ -138,7 +138,7 @@ class Forwards(FootballPlayers):
         Функция, которая вычисляет, является ли игрок нападающим топ-уровня.
         :return: Является ли игрок нападающим топ-уровня
         Примеры:
-        >>> player = Forwards('Эрлинг Холанд"', 'Норвегия', 36, 2, 1, 36.41)
+        >>> player = Forwards('Роберт Левандовски', 'Польша', 25, 4, 1, 26.58)
         >>> player.is_top_striker()
         True
         """
@@ -197,7 +197,7 @@ class Midfielders(FootballPlayers):
         Функция, которая вычисляет, является ли игрок плеймейкером топ-уровня.
         :return: Является ли игрок плеймейкером топ-уровня
         Примеры:
-        >>> player = Midfielders('Педри', 'Испания', 10, 15, 1, 14.26)
+        >>> player = Midfielders('Педри', 'Испания', 8, 15, 1, 16.35)
         >>> player.is_top_playmaker()
         True
         """
@@ -209,3 +209,4 @@ class Midfielders(FootballPlayers):
 
 if __name__ == "__main__":
     doctest.testmod()  # тестирование примеров, которые находятся в документации
+    
